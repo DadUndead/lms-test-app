@@ -14,15 +14,15 @@
   </organizations>
   <resources>
     <resource identifier="resource_1" type="webcontent" href="index.html" adlcp:scormtype="sco">
+      <file href="imsmanifest.xml"/>
       <file href="index.html"/>
-      <file href="css/bootstrap.min.css"/>
       <file href="css/common.css"/>
-      <file href="js/main.js"/>
       <file href="fonts/glyphicons-halflings-regular.eot"/>
       <file href="fonts/glyphicons-halflings-regular.svg"/>
       <file href="fonts/glyphicons-halflings-regular.ttf"/>
       <file href="fonts/glyphicons-halflings-regular.woff"/>
       <file href="fonts/glyphicons-halflings-regular.woff2"/>
+      <file href="js/main.js"/>
       <file href="js/libs/lib.js"/>
     </resource>
   </resources>

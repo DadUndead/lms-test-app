@@ -77,6 +77,10 @@ gulp.task('js:build', [], () =>
 
 gulp.task('css:build', [], () =>
     gulp.src(paths.src.styles)
+        .pipe(concatCss('common.css', {
+          rebaseUrls: false,
+          includePaths: ['../fonts']
+        }))
         .pipe(prefixer())
         .pipe(cssnano())
         .pipe(sourcemaps.write())
@@ -102,8 +106,6 @@ gulp.task('fonts:build', [], () =>
 // Rerun the task when a file changes
 gulp.task('watch', () => {
   gulp.watch(paths.src.scripts, ['manifest']);
-  gulp.watch(paths.src.styles, ['manifest']);
-  gulp.watch(paths.src.html, ['manifest']);
 });
 
 gulp.task('manifest', ['build'], function() {
