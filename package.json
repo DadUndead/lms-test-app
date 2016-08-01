@@ -1,0 +1,41 @@
+{
+  "name": "lms-test-app",
+  "version": "1.0.0",
+  "description": "Simple 'course' to test SCORM functionality",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DadUndead/lms-test-app.git"
+  },
+  "keywords": [
+    "LMS",
+    "SCORM"
+  ],
+  "author": "aklimenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DadUndead/lms-test-app/issues"
+  },
+  "homepage": "https://github.com/DadUndead/lms-test-app#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-ignore": "^2.0.1",
+    "gulp-minify": "0.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-requirejs": "^0.1.3",
+    "gulp-scorm-manifest": "^0.6.4",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-strip-css-comments": "^1.2.0"
+  },
+  "dependencies": {}
+}
